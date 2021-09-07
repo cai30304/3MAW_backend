@@ -23,18 +23,17 @@
                 @endif
                 <div class="card">
                     <div class="card-header">
-                    Supplier Classification 管理
+                        產品類型管理
                     </div>
 
                     <div class="card-body">
-                        <a class="btn btn-success" href="/admin/product_type/create">新增Supplier Classification</a>
+                        <a class="btn btn-success" href="/admin/product_type/create">新增產品類型</a>
                         <hr>
                         <table id="example" class="table table-striped table-bordered" style="width:100%">
                             <thead>
                             <tr>
                                 <th>圖片</th>
                                 <th>標題</th>
-                                <th>次標題</th>
                                 <th>排序</th>
                                 <th width="80">功能</th>
                             </tr>
@@ -43,8 +42,7 @@
                             @foreach($items as $item)
                                 <tr>
                                     <td><img src="{{$item->img}}" width="64" alt=""></td>
-                                    <td>{{$item->type_name_ch}}</td>
-                                    <td>{{$item->subtitle_ch}}</td>
+                                    <td>{{$item->type_name_en}}</td>
                                     <td>{{$item->sort}}</td>
                                     <td>
                                         <a class="btn btn-success btn-sm" href="/admin/product_type/{{$item->id}}">編輯</a>

@@ -27,7 +27,6 @@ class NewsRequest extends FormRequest
             'date' => 'required|date',
             'img' => 'bail|mimes:jpeg,gif,png|max:2048',
             'title_ch' => 'required|max:255',
-            'content_ch' => 'required',
             'sort' => 'required',
         ];
     }
@@ -41,7 +40,6 @@ class NewsRequest extends FormRequest
             'img.mimes' => '上傳的檔案格式錯誤!',
             'title_ch.required' => '標題為必填!',
             'title_ch.max' => '標題過長!',
-            'content_ch.required' => '標題為必填!',
             'sort.required' => '排序為必填!',
         ];
     }

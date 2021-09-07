@@ -5,14 +5,12 @@ namespace App\Http\Controllers;
 use App\News;
 use App\AboutUs;
 use App\Banners;
-use App\Partner;
 use App\Products;
 use App\Supplier;
 use App\ContactUs;
 use App\Http\Requests\ContactRequest;
 use App\ProductsType;
 use App\ProductVideo;
-use Illuminate\Support\Facades\Validator;
 
 class FrontController extends Controller
 {
@@ -20,11 +18,8 @@ class FrontController extends Controller
         $banners = Banners::orderBy('sort','desc')->get();
         $all_news = News::orderBy('sort','desc')->take(4)->get();
         $productTypes = ProductsType::orderBy('sort','desc')->get();
-        $suppliers = Supplier::orderBy('sort','desc')->get();
-        $productVideos = ProductVideo::orderBy('sort','desc')->get();
-        $partners = Partner::orderBy('sort','desc')->get();
 
-        return view('front.index',compact('banners','all_news','productTypes','suppliers','productVideos','partners'));
+        return view('front.index',compact('banners','all_news','productTypes'));
     }
 
     public function about_us()
@@ -50,8 +45,9 @@ class FrontController extends Controller
     }
 
     public function Products($id) {
-        $product = Products::find($id);
-        return view('front.productDetail',compact('product'));
+        $products = Products::where('type',$id)->get();
+        $product_type = ProductsType::find($id);
+        return view('front.productDetail',compact('products','product_type'));
     }
 
     public function contact_us(ContactRequest $request) {

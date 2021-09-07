@@ -12,7 +12,7 @@
             <div class="flex flex-wrap w-full mb-10">
                 <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
                     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">{{$type->type_name_ch}}</h1>
-                    <div class="h-1 w-20 bg-hmit-blue rounded"></div>
+                    <div class="h-1 w-20 bg-custom-purple rounded"></div>
                 </div>
             </div>
             <div class="flex flex-wrap -m-4">

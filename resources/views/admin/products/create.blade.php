@@ -41,7 +41,7 @@
                                 <div class="col-10">
                                     <select class="form-control" id="type" name="type" required>
                                         @foreach($types as $index => $type)
-                                            <option value="{{$type->id}}" @if($index == 1)selected @endif>{{$type->type_name_ch}}</option>
+                                            <option value="{{$type->id}}" @if($index == 1)selected @endif>{{$type->type_name_en}}</option>
                                         @endforeach
                                     </select>
                                 </div>
@@ -61,12 +61,12 @@
                                     <textarea class="form-control" id="content_ch" name="content_ch" required rows="5"></textarea>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            {{-- <div class="form-group row">
                                 <label for="datail_ch" class="col-2 col-form-label">超連結</label>
                                 <div class="col-10">
                                     <input type="text" class="form-control" id="links" name="links" required>
                                 </div>
-                            </div>
+                            </div> --}}
                             <hr>
 
                             <div class="form-group row">

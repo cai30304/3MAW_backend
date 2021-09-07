@@ -9,7 +9,7 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">Supplier Classification - 新增</div>
+                    <div class="card-header">產品類型 - 新增</div>
                     @if($errors->any())
                         @foreach($errors->all() as $error)
                         <div class="alert alert-danger" role="alert">
@@ -34,9 +34,9 @@
                             <hr>
 
                             <div class="form-group row">
-                                <label for="type_name_ch" class="col-2 col-form-label">標題</label>
+                                <label for="type_name_en" class="col-2 col-form-label">標題</label>
                                 <div class="col-10">
-                                    <input type="text" class="form-control" id="type_name_ch" name="type_name_ch" required>
+                                    <input type="text" class="form-control" id="type_name_en" name="type_name_en" required>
                                 </div>
                             </div>
                             <div class="form-group row">

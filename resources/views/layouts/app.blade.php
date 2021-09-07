@@ -34,37 +34,37 @@
                     @if(Auth::check())
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="/admin/about_us">About</a>
-                        </li>
+                        </li> --}}
                         <li class="nav-item">
                             <a class="nav-link" href="/admin/seo">SEO管理</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/admin/banner">Recommend Supplier</a>
+                            <a class="nav-link" href="/admin/banner">Banner</a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="/admin/supplier">Certification Supplier</a>
-                        </li>
+                        </li> --}}
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Supplier Classification
+                            Products
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/admin/product_type">Supplier Classification</a>
-                                <a class="dropdown-item" href="/admin/products">Supplier</a>
+                                <a class="dropdown-item" href="/admin/product_type">Product Type</a>
+                                <a class="dropdown-item" href="/admin/products">Product</a>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="/admin/product_video">ProductVideo</a>
-                        </li>
+                        </li> --}}
 
                         <li class="nav-item">
                             <a class="nav-link" href="/admin/news">News</a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="/admin/partner">Partner</a>
-                        </li>
+                        </li> --}}
 
                         <li class="nav-item">
                             <a class="nav-link" href="/admin/contact">聯絡我們管理</a>

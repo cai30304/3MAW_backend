@@ -45,13 +45,13 @@
                                     <input type="text" class="form-control" id="title_ch" name="title_ch" required>
                                 </div>
                             </div>
-                            <hr>
+                            {{-- <hr>
                             <div class="form-group row">
                                 <label for="content_ch" class="col-2 col-form-label">簡述</label>
                                 <div class="col-10">
                                     <textarea style="height:150px;" type="text" class="form-control" id="content_ch" name="content_ch" required></textarea>
                                 </div>
-                            </div>
+                            </div> --}}
                             <hr>
                             <div class="form-group row">
                                 <label for="content_ch" class="col-2 col-form-label">內頁詳細內容</label>
@@ -65,7 +65,7 @@
                                 <div class="col-10">
                                     <input type="number" class="form-control" id="sort" name="sort" required value="0" min="0" max="999">
                                 </div>
-                                <div class="col-12"><small class="text-danger">*注意：只會顯示數字最大的前兩則新聞</small></div>
+                                <div class="col-12"><small class="text-danger">*注意：只會顯示數字最大的前四則新聞</small></div>
                             </div>
                             <hr>
                             <button type="submit" class="btn btn-primary d-block mx-auto">新增</button>

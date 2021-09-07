@@ -28,7 +28,6 @@ class ProductsRequest extends FormRequest
             'type' => 'required',
             'name_ch' => 'required|max:255',
             'content_ch' => 'required',
-            'links' => 'required|max:255',
             'sort' => 'required',
         ];
     }
@@ -42,8 +41,6 @@ class ProductsRequest extends FormRequest
             'name_ch.required' => '產品名稱不可為空!',
             'name_ch.max' => '產品名稱過長!',
             'content_ch.required' => '簡述不可為空!',
-            'links.required' => '超連結不可為空!',
-            'links.max' => '網址過長!',
             'sort.required' => '排序為必填!',
         ];
     }

@@ -26,6 +26,10 @@
     <link href="/css/tailwind.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.css" />
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             background: url('/src/imgs/bg.png');
         }
@@ -36,41 +40,47 @@
         .swiper-container-rtl .swiper-button-next:after {
             content: "";
         }
+
+        .bg-custom-purple {
+            --tw-text-opacity: 1 !important;
+            background-color: rgba(175, 65, 132, var(--tw-text-opacity)) !important;
+        }
+
+        .text-custom-purple {
+            --tw-text-opacity: 1 !important;
+            color: rgba(175, 65, 132, var(--tw-text-opacity)) !important;
+        }
     </style>
 
     @yield('css')
 </head>
 
 <body>
-    <header class="text-gray-600 body-font shadow bg-hmit-blue fixed z-10 top-0 w-full">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="/">
-                <span class="ml-3 text-xl bg-white p-2 px-3">
+    <header class="text-gray-600 body-font shadow bg-custom-purple fixed z-10 top-0 w-full">
+        <div class="container mx-auto flex flex-wrap md:p-5 pt-2 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-0" href="/">
+                <span class="ml-3 text-xl md:p-2 p-0 px-3">
                     <img class="h-10" src="/img/logo.png" alt="HMIT">
                 </span>
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
 
-                <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/about_us">
-                    About us
+                <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#AboutUs">
+                    About 3Maw
                 </a>
 
-                <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="#Classification">
-                    Classification
+                <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#Products">
+                    Products
                 </a>
 
-                <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="#News">
-                    Exhibition
-                </a>
-
-                <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="#News">
+                <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#News">
                     News
                 </a>
+                <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#ContactUs">
+                    Contact Us
+                </a>
             </nav>
-            <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0"
-                href="#ContactUs">
-                Contact Us
-            </a>
+
         </div>
     </header>
 
@@ -78,15 +88,17 @@
         @yield('content')
     </div>
 
-    <footer class="text-white body-font">
-        <div class="bg-hmit-blue">
+
+
+
+
+    <footer class="text-white text-center sm:text-left body-font">
+        <div class="bg-custom-purple">
             <div class="container mx-auto py-4 px-5">
-                <p class="text-white text-lg text-center sm:text-left">Taiwan Hardware Suppliers Plaform&Magazine</p>
-                <p class="text-white text-lg text-center sm:text-left">(Image Advertising Media Co.)</p>
-                <p class="text-white text-sm text-center sm:text-left">13F.-5, No. 100, Sec. 1, Zhongqing Rd., North Dist., </p>
-                <p class="text-white text-sm text-center sm:text-left">Taichung City 404, Taiwan</p>
-                <p class="text-white text-sm text-center sm:text-left">TEL:+886-4-22038853   FAX:+886-4-22083823</p>
-                <p class="text-white text-sm text-center sm:text-left">E-mail:info@hmit.com.tw</p>
+                <p class="font-bold leading-loose text-lg  ">SAN MAW RUBBER INDUSTRIAL CO., LTD.</p>
+                <p class="font-bold leading-loose text-lg">Tel: +886-4-7708736 　+886-4-7707597 Fax: +886-4-7706214</p>
+                <p class="font-bold leading-loose text-sm">No.10, Dong Shi Lane, Ting Nian Village,Fuxing Township,Changhua County 506, Taiwan</p>
+                <p class="font-bold leading-loose text-sm">E-mail: v823@ms25.hinet.net</p>
             </div>
         </div>
     </footer>
