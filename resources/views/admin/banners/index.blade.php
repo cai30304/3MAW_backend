@@ -23,7 +23,7 @@
                 @endif
 
                 <div class="card">
-                    <div class="card-header">Recommend Supplier管理</div>
+                    <div class="card-header">Banner管理</div>
 
                     <div class="card-body">
                         <a class="btn btn-success" href="/admin/banner/create">新增</a>

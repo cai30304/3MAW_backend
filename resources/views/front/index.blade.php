@@ -173,7 +173,7 @@
                         <div class="p-4 lg:w-1/4 md:w-1/2 w-full">
                             <a class="mt-3 text-black text-center block transform duration-300 hover:scale-105 shadow" href="/Products/{{$types->id}}" target="_blank">
                                 <img class="rounded-full object-cover object-center inline-block w-56 h-56"
-                                src="{{$types->img}}" alt="{{$types->type_name_en}}">
+                                src="{{$types->img ?? '/img/bg.png'}}" alt="{{$types->type_name_en}}">
                                 <div class="text-lg font-bold my-3">{{$types->type_name_en}}</div>
                             </a>
                         </div>

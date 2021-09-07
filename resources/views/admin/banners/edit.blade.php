@@ -9,7 +9,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Recommend Supplier - 編輯</div>
+                <div class="card-header">Banner - 編輯</div>
                 @if($errors->any())
                     @foreach($errors->all() as $error)
                     <div class="alert alert-danger" role="alert">
