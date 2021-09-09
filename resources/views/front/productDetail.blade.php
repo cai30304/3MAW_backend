@@ -23,13 +23,13 @@
                         </div>
                         <div
                             class="flex-grow lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-<pre class="text-xl mb-8 leading-relaxed" style="white-space: break-spaces;word-break: break-all;">
+<pre class="text-xl leading-relaxed" style="white-space: break-spaces;word-break: break-all;">
 {{$product->content_ch}}
 </pre>
                         </div>
 
                     </div>
-                    <div class="h-1 w-full bg-gray-200 my-5 rounded"></div>
+                    <div class="h-1 w-full bg-gray-200 my-12 rounded"></div>
                     @endforeach
                 </div>
 
