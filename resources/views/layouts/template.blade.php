@@ -56,7 +56,7 @@
 </head>
 
 <body>
-    <header class="text-gray-600 body-font shadow bg-custom-purple fixed z-10 top-0 w-full">
+    {{-- <header class="text-gray-600 body-font shadow bg-custom-purple fixed z-10 top-0 w-full">
         <div class="container mx-auto flex flex-wrap md:p-5 pt-2 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-0" href="/">
                 <span class="ml-3 text-xl md:p-2 p-0 px-3">
@@ -82,7 +82,36 @@
             </nav>
 
         </div>
+    </header> --}}
+
+    <header x-data="{ mobileMenuOpen : false }" class="text-gray-600 body-font shadow bg-custom-purple fixed z-10 top-0 w-full">
+        <div class="container mx-auto flex flex-wrap p-5 justify-between items-center">
+            <a class="flex items-center mb-0" href="/">
+                <span class="ml-3 text-xl p-2 px-3">
+                    <img class="h-10" src="/img/logo.png" alt="HMIT">
+                </span>
+            </a>
+            <button @click="mobileMenuOpen = !mobileMenuOpen" class="inline-block md:hidden w-12 h-12 p-1"><svg fill="#ffffff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
+            <nav class="md:ml-auto md:flex flex-col md:flex-row w-full md:w-auto items-center text-base justify-center"
+             @click.away="mobileMenuOpen = false" :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}">
+                <a class="block items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#AboutUs">
+                    About 3Maw
+                </a>
+
+                <a class="block items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#Products">
+                    Products
+                </a>
+
+                <a class="block items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#News">
+                    News
+                </a>
+                <a class="block items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#ContactUs">
+                    Contact Us
+                </a>
+            </nav>
+        </div>
     </header>
+
 
     <div style="padding-top:96px">
         @yield('content')
@@ -104,6 +133,8 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
     @yield('js')
 </body>
 </html>

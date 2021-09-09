@@ -171,7 +171,7 @@
                 <div class="flex flex-wrap">
                     @foreach ($productTypes as $types)
                         <div class="p-4 lg:w-1/4 md:w-1/2 w-full">
-                            <a class="py-3 text-black text-center block transform duration-300 hover:scale-105 shadow" href="/Products/{{$types->id}}" target="_blank">
+                            <a class="py-3 text-black text-center block transform duration-300 hover:scale-105 shadow" href="/Products/{{$types->id}}">
                                 <img class="rounded-full object-cover object-center inline-block w-56 h-56"
                                 src="{{$types->img ?? '/img/bg.png'}}" alt="{{$types->type_name_en}}">
                                 <div class="text-lg font-bold pt-3">{{$types->type_name_en}}</div>
