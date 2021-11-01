@@ -67,7 +67,7 @@
                 <div class="lg:w-2/3 md:w-1/2 md:pl-10 md:py-6 font-bold text-black leading-loose md:pt-0 pt-10">
                     <h1 class="sm:text-3xl text-2xl text-center ">Your best partner, 3Maw Rubber</h1>
                     <h2 class="sm:text-2xl text-xl my-8 md:pl-8 pl-0">Thank you for visiting our website.</h2>
-                    <p class="tracking-wide text-justify text-lg">
+                    <p class="tracking-wide text-justify md:text-lg">
                         A specialized rubber-part manufacturer with advanced facilities and integrated production from R&D, manufacture to delivery, we supply a wide array of automotive, hardware,electronic, mechanical and healthcare equipment parts and accessories.<br>
                         We prioritize :<br>
                         1.	reliability<br>
