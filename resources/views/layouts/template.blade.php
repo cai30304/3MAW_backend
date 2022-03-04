@@ -60,13 +60,14 @@
         <div class="container mx-auto flex flex-wrap md:p-5 pt-2 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-0" href="/">
                 <span class="ml-3 text-xl md:p-2 p-0 px-3">
-                    <img class="h-10" src="/img/logo.png" alt="HMIT">
+                    <!-- <img class="h-10" src="/img/logo.png" alt="Logo"> -->
+                    Logo
                 </span>
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
 
                 <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#AboutUs">
-                    About 3Maw
+                    About Us
                 </a>
 
                 <a class="inline-flex items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#Products">
@@ -88,14 +89,15 @@
         <div class="container mx-auto flex flex-wrap p-5 justify-between items-center">
             <a class="flex items-center mb-0" href="/">
                 <span class="ml-3 text-xl p-2 px-3">
-                    <img class="h-10" src="/img/logo.png" alt="HMIT">
+                    <!-- <img class="h-10" src="/img/logo.png" alt="Logo"> -->
+                    Logo
                 </span>
             </a>
             <button @click="mobileMenuOpen = !mobileMenuOpen" class="inline-block md:hidden w-12 h-12 p-1"><svg fill="#ffffff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
             <nav class="md:ml-auto md:flex flex-col md:flex-row w-full md:w-auto items-center text-base justify-center"
              @click.away="mobileMenuOpen = false" :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}">
                 <a class="block items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#AboutUs">
-                    About 3Maw
+                    About Us
                 </a>
 
                 <a class="block items-center text-white border-0 py-1 px-3 pb-1 hover:underline rounded text-base mt-4 md:mt-0 mr-3" href="/#Products">
@@ -124,10 +126,10 @@
     <footer class="text-white text-center sm:text-left body-font">
         <div class="bg-custom-purple">
             <div class="container mx-auto py-4 px-5">
-                <p class="font-bold leading-loose text-lg  ">SAN MAW RUBBER INDUSTRIAL CO., LTD.</p>
-                <p class="font-bold leading-loose text-lg">Tel: +886-4-7708736 　+886-4-7707597 Fax: +886-4-7706214</p>
-                <p class="font-bold leading-loose text-sm">No.10, Dong Shi Lane, Ting Nian Village,Fuxing Township,Changhua County 506, Taiwan</p>
-                <p class="font-bold leading-loose text-sm">E-mail: v823@ms25.hinet.net</p>
+                <p class="font-bold leading-loose text-lg  ">Company CO., LTD.</p>
+                <p class="font-bold leading-loose text-lg">Tel: </p>
+                <p class="font-bold leading-loose text-sm">Address</p>
+                <p class="font-bold leading-loose text-sm">E-mail: </p>
             </div>
         </div>
     </footer>

@@ -58,28 +58,16 @@
                 <div class="lg:w-1/3 md:w-1/2 object-cover object-center rounded-lg">
                     <div class="flex flex-wrap w-full mb-10">
                         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-                            <h1 class="sm:text-3xl text-2xl font-bold title-font mb-2 text-custom-purple">About 3 Maw</h1>
+                            <h1 class="sm:text-3xl text-2xl font-bold title-font mb-2 text-custom-purple">About Us</h1>
                             <div class="h-1 w-20 bg-custom-purple rounded"></div>
                         </div>
                     </div>
-                    <img src="/img/about_us.jpg" alt="About Us">
+                    <!-- <img src="/img/about_us.jpg" alt="About Us"> -->
+                    <img src="https://fakeimg.pl/400x350/">
                 </div>
                 <div class="lg:w-2/3 md:w-1/2 md:pl-10 md:py-6 font-bold text-black leading-loose md:pt-0 pt-10">
-                    <h1 class="sm:text-3xl text-2xl text-center ">Your best partner, 3Maw Rubber</h1>
-                    <h2 class="sm:text-2xl text-xl my-8 md:pl-8 pl-0">Thank you for visiting our website.</h2>
-                    <p class="tracking-wide text-justify text-lg">
-                        A specialized rubber-part manufacturer with advanced facilities and integrated production from R&D, manufacture to delivery, we supply a wide array of automotive, hardware,electronic, mechanical and healthcare equipment parts and accessories.<br>
-                        We prioritize :<br>
-                        1.	reliability<br>
-                        2.	quality<br>
-                        3.	innovation<br>
-                        4.	customer-oriented service.<br>
-                        Company operating guidelines.<br>
-                        Please contact us for further info and OEM/ODM orders.
-                    </p>
 
                 </div>
-
             </div>
           </div>
         </section>
@@ -96,36 +84,36 @@
                 <div class="flex flex-wrap -m-2">
                     <div class="p-2 lg:w-1/4 md:w-1/2 w-full text-white">
                         <div class="h-full text-center p-4 rounded-lg transform duration-300 hover:scale-105">
-                            <img class="rounded-full object-cover object-center inline-block w-64 h-64" src="/img/applications/Automotive.jpg" alt="Automotive">
+                            <img class="rounded-full object-cover object-center inline-block w-64 h-64" src="https://fakeimg.pl/256x256/" alt="Automotive">
                             <div class="flex-grow">
-                                <h2 class="text-xl font-bold">Automotive</h2>
+                                <h2 class="text-xl font-bold">Application1</h2>
                             </div>
                         </div>
                     </div>
 
                     <div class="p-2 lg:w-1/4 md:w-1/2 w-full text-white">
                         <div class="h-full text-center p-4 rounded-lg transform duration-300 hover:scale-105">
-                            <img class="rounded-full object-cover object-center inline-block w-64 h-64" src="/img/applications/Aerospace.jpg" alt="Aerospace">
+                            <img class="rounded-full object-cover object-center inline-block w-64 h-64" src="https://fakeimg.pl/256x256/" alt="Aerospace">
                             <div class="flex-grow">
-                                <h2 class="text-xl font-bold">Aerospace</h2>
+                                <h2 class="text-xl font-bold">Application2</h2>
                             </div>
                         </div>
                     </div>
 
                     <div class="p-2 lg:w-1/4 md:w-1/2 w-full text-white">
                         <div class="h-full text-center p-4 rounded-lg transform duration-300 hover:scale-105">
-                            <img class="rounded-full object-cover object-center inline-block w-64 h-64" src="/img/applications/Oil&gas industry.jpg" alt="Oil&gas industry">
+                            <img class="rounded-full object-cover object-center inline-block w-64 h-64" src="https://fakeimg.pl/256x256/" alt="Oil&gas industry">
                             <div class="flex-grow">
-                                <h2 class="text-xl font-bold">Oil&gas industry</h2>
+                                <h2 class="text-xl font-bold">Application3</h2>
                             </div>
                         </div>
                     </div>
 
                     <div class="p-2 lg:w-1/4 md:w-1/2 w-full text-white">
                         <div class="h-full text-center p-4 rounded-lg transform duration-300 hover:scale-105">
-                            <img class="rounded-full object-cover object-center inline-block w-64 h-64" src="/img/applications/Water&food industry.jpg" alt="Water&food industry">
+                            <img class="rounded-full object-cover object-center inline-block w-64 h-64" src="https://fakeimg.pl/256x256/" alt="Water&food industry">
                             <div class="flex-grow">
-                                <h2 class="text-xl font-bold">Water&food industry</h2>
+                                <h2 class="text-xl font-bold">Application4</h2>
                             </div>
                         </div>
                     </div>
