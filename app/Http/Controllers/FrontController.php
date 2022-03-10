@@ -15,11 +15,13 @@ use App\ProductVideo;
 class FrontController extends Controller
 {
     public function index() {
-        $banners = Banners::orderBy('sort','desc')->get();
-        $all_news = News::orderBy('sort','desc')->take(4)->get();
-        $productTypes = ProductsType::orderBy('sort','desc')->get();
+        $indexData = [];
 
-        return view('front.index',compact('banners','all_news','productTypes'));
+        $indexData['banners'] = Banners::orderBy('sort','desc')->get();
+        $indexData['all_news'] = News::orderBy('sort','desc')->take(4)->get();
+        $indexData['productTypes'] = ProductsType::orderBy('sort','desc')->get();
+
+        return view('front.index',compact('indexData'));
     }
 
     public function about_us()

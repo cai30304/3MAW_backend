@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 // 網站前台
 // Route::get('/', function () {
-//     return view('/welcome');
+//     return redirect('/tw');
 // })->name('index');
+
 Route::get('/', 'FrontController@index');
 Route::get('/about_us', 'FrontController@about_us');
 Route::post('/contact_us', 'FrontController@contact_us');

@@ -88,9 +88,9 @@
     <header x-data="{ mobileMenuOpen : false }" class="text-gray-600 body-font shadow bg-custom-purple fixed z-10 top-0 w-full">
         <div class="container mx-auto flex flex-wrap p-5 justify-between items-center">
             <a class="flex items-center mb-0" href="/">
-                <span class="ml-3 text-xl p-2 px-3">
-                    <!-- <img class="h-10" src="/img/logo.png" alt="Logo"> -->
-                    Logo
+                <span class="ml-3 text-xl p-2 px-3 flex text-white items-end font-bold">
+                    <img class="h-10" src="/img/short_logo.png" alt="Logo">
+                    宏鎧五金實業有限公司
                 </span>
             </a>
             <button @click="mobileMenuOpen = !mobileMenuOpen" class="inline-block md:hidden w-12 h-12 p-1"><svg fill="#ffffff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
@@ -126,10 +126,16 @@
     <footer class="text-white text-center sm:text-left body-font">
         <div class="bg-custom-purple">
             <div class="container mx-auto py-4 px-5">
-                <p class="font-bold leading-loose text-lg  ">Company CO., LTD.</p>
-                <p class="font-bold leading-loose text-lg">Tel: </p>
-                <p class="font-bold leading-loose text-sm">Address</p>
-                <p class="font-bold leading-loose text-sm">E-mail: </p>
+                <p class="font-bold leading-loose text-lg  ">
+                    U-HOUSE HARDWARE INDUSTRY CO., LTD. <br/>
+                    YO CHENG HARDWARE CO.
+                </p>
+                <p class="font-bold leading-loose text-lg">Tel:+886-4-7363879 | Fax:+886-4-7367352
+                    </p>
+                <p class="font-bold leading-loose text-sm">Address: No.206, Kedong Rd., Hemei Township,
+                    Changhua County 508, Taiwan
+                    </p>
+                <p class="font-bold leading-loose text-sm">E-mail: yocheng168@gmail.com</p>
             </div>
         </div>
     </footer>
