@@ -96,7 +96,7 @@
                             <img class="rounded-full object-cover object-center inline-block w-64 h-64"
                                 src="/img/applications/car.jpg" alt="Car">
                             <div class="flex-grow">
-                                <h2 class="text-xl font-bold">Application1</h2>
+                                <h2 class="text-xl font-bold">Car</h2>
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                             <img class="rounded-full object-cover object-center inline-block w-64 h-64"
                                 src="/img/applications/building.jpg" alt="Building">
                             <div class="flex-grow">
-                                <h2 class="text-xl font-bold">Application2</h2>
+                                <h2 class="text-xl font-bold">Building</h2>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                             <img class="rounded-full object-cover object-center inline-block w-64 h-64"
                                 src="/img/applications/screw.jpg" alt="Screw">
                             <div class="flex-grow">
-                                <h2 class="text-xl font-bold">Application3</h2>
+                                <h2 class="text-xl font-bold">Screw</h2>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                             <img class="rounded-full object-cover object-center inline-block w-64 h-64"
                                 src="/img/applications/tool.jpg" alt="Tool">
                             <div class="flex-grow">
-                                <h2 class="text-xl font-bold">Application4</h2>
+                                <h2 class="text-xl font-bold">Tool</h2>
                             </div>
                         </div>
                     </div>

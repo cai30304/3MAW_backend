@@ -90,7 +90,7 @@
             <a class="flex items-center mb-0" href="/">
                 <span class="ml-3 text-xl p-2 px-3 flex text-white items-end font-bold">
                     <img class="h-10" src="/img/short_logo.png" alt="Logo">
-                    宏鎧五金實業有限公司
+                    東家五金有限公司
                 </span>
             </a>
             <button @click="mobileMenuOpen = !mobileMenuOpen" class="inline-block md:hidden w-12 h-12 p-1"><svg fill="#ffffff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
