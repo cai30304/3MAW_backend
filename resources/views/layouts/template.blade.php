@@ -43,12 +43,12 @@
 
         .bg-custom-purple {
             --tw-text-opacity: 1 !important;
-            background-color: rgba(175, 65, 132, var(--tw-text-opacity)) !important;
+            background-color: rgba(16, 55, 120, var(--tw-text-opacity)) !important;
         }
 
         .text-custom-purple {
             --tw-text-opacity: 1 !important;
-            color: rgba(175, 65, 132, var(--tw-text-opacity)) !important;
+            color: rgba(16, 55, 120, var(--tw-text-opacity)) !important;
         }
     </style>
 
