@@ -18,9 +18,9 @@
         gtag('js', new Date());
 
         gtag('config', 'G-GXF49ZEXBX');
-    </script>
+    </script> -->
 
-    @yield('recaptcha') -->
+    @yield('recaptcha')
 
 
     <link href="/css/tailwind.css" rel="stylesheet">

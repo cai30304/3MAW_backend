@@ -1,8 +1,7 @@
 @extends('layouts.template')
 
 @section('recaptcha')
-    {{-- google recaptcha v3 --}}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 @endsection
 
 @section('css')
@@ -260,15 +259,13 @@
                                     <textarea id="message" name="content"
                                         class="w-full bg-black bg-opacity-25 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
+
+                                <div class="g-recaptcha" data-sitekey="6LfJjvMfAAAAAJns6znQ3dAh2QFC2ryo3h5fK9SA"></div>
                                 <button
-                                    class="text-white block w-full bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                                    class="mt-4 text-white block w-full bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                                     type="submit">Send</button>
                             </div>
                         </div>
-
-
-
-                        <!-- {!! app('captcha')->render() !!} -->
 
                     </form>
                 </div>
