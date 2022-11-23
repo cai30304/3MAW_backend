@@ -61,7 +61,7 @@
                         </div>
                         <img src="/img/about_us.jpg" alt="About Us">
                     </div>
-                    <div class="lg:w-2/3 md:w-1/2 md:pl-10 md:py-6 font-bold text-black leading-loose md:pt-0 pt-10">
+                    <div class="lg:w-2/3 md:w-1/2 md:pl-10 md:py-6 font-bold text-lg text-black leading-loose md:pt-0 pt-10">
                         Professional manufacturer – U-HOUSE HARDWARE INDUSTRY CO. LTD., formerly known as zinc and aluminum
                         alloy die-casting "YO CHENG HARDWARE CO.", was established in 1990 and occupies an important
                         position in the field of zinc and aluminum alloy die-casting. Exquisite technology and
