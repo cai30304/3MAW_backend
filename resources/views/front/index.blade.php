@@ -62,10 +62,6 @@
                         <img src="/img/about_us.jpg" alt="About Us">
                     </div>
                     <div class="lg:w-2/3 md:w-1/2 md:pl-10 md:py-6 font-bold text-black leading-loose md:pt-0 pt-10">
-                        專業製造商-東家五金有限公司前身為鋅、鋁合金壓鑄"佑晟五金"，成立於西元1990年，在鋅、鋁合金壓鑄的領域中，佔有重要的地位。精湛的技術加上品質至上的品管，讓鋅、鋁合金壓鑄產品更加有競爭力。<br/>
-                        鋅、鋁合金壓鑄的產品應用很廣，如汽機車零件、工具零件、門把、掛勾、衛浴配件、螺絲、螺帽.......等等，不勝枚舉。<br/>
-                        應付國際市場的多變化，投入後段加工服務，如CNC加工、拋光、組裝....等，歡迎OEM,ODM合作。<br/>
-                        <br/>
                         Professional manufacturer – U-HOUSE HARDWARE INDUSTRY CO. LTD., formerly known as zinc and aluminum
                         alloy die-casting "YO CHENG HARDWARE CO.", was established in 1990 and occupies an important
                         position in the field of zinc and aluminum alloy die-casting. Exquisite technology and
