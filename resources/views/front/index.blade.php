@@ -170,7 +170,7 @@
                 </div>
                 <div class="flex flex-wrap">
                     @foreach ($indexData['productTypes'] as $types)
-                        <div class="p-4 lg:w-1/4 md:w-1/2 w-full">
+                        <div class="p-4 lg:w-1/4 w-1/2">
                             <a class="py-3 text-black text-center block transform duration-300 hover:scale-105 shadow"
                                 href="/Products/{{ $types->id }}">
                                 <img class="rounded-full object-cover object-center inline-block w-56 h-56"
