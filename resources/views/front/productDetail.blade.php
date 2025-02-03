@@ -14,9 +14,10 @@
                 </div>
             </div>
             <section class="text-black body-font">
-                <div class="container mx-auto">
+                <div class="container mx-auto flex flex-wrap">
                     @foreach($products as $product)
-                    <div class="flex px-5 md:flex-row flex-col items-center">
+                    <div class="w-1/2">
+                        <div class="flex px-5 md:flex-row flex-col items-center">
                         <div class="sm:w-1/2 w-full">
                             <img class="object-cover object-center rounded" alt="hero" src="{{$product->img ?? '/img/bg.png'}}">
                             <h2 class="text-center font-bold text-2xl pt-3">{{$product->name_ch}}</h2>
@@ -30,6 +31,7 @@
 
                     </div>
                     <div class="h-1 w-full bg-gray-200 my-12 rounded"></div>
+                    </div>
                     @endforeach
                 </div>
 
